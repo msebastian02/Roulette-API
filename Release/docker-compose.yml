@@ -1,0 +1,13 @@
+version: '2'
+services:
+  roulette_db:
+    image: mysql:latest
+    container_name: db2
+    volumes:
+      - "./.mysql-data/db:/var/lib/mysql"
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: roulette
