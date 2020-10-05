@@ -43,6 +43,8 @@ _A continuación podrás ejecutar pruebas de la API expuesta en localhost:8080_
 
 _Para ejecutar pruebas a la API se debe usar cualquier programa para ejecución de peticiones (Postman, SoapUI, API Tester, etc.)_
 
+_NOTA: En la carpeta Release del repositorio se encuentra un proyecto SoapUI ya configurado con las diferentes peticiones (Roulette-soapui-project.xml)_
+
 _Crear Ruleta, Se deberá enviar una petición tipo POST con un body vacío y retornará el id de la ruleta creada:_
 
 ```
